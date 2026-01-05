@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/hemantgupta/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Users/hemantgupta/Herd/assignment/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/hemantgupta/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/hemantgupta/Herd/assignment"
+            }
+        }
+    }
+}
